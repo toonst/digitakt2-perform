@@ -1,0 +1,11 @@
+# Firmware, and anything built from it, never goes in this repository.
+*.syx
+*.syx.json
+*.map.json
+*.bin
+*.elemod
+*.dtmod
+out/
+dist/
+__pycache__/
+.DS_Store

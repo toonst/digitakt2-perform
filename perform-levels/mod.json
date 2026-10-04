@@ -1,0 +1,16 @@
+{
+ "id": "perform-levels",
+ "version": "1.0",
+ "title": "Perform keeps levels",
+ "category": "Performance",
+ "author": "toonst",
+ "license": "GPL-2.0-or-later",
+ "description": "Track levels set in PERFORM KIT mode stay when you leave it; every other parameter still goes back to the pattern's kit, as stock.",
+ "device": "digitakt-mk2",
+ "os": "1.17",
+ "sources": ["levels.s", "levels.c"],
+ "sites": [
+  {"addr": "0x40064ba6", "stock": "2f2a00984e93", "op": "jsr", "target": "pl_off"}
+ ],
+ "requires": ["core"]
+}
